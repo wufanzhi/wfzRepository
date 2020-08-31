@@ -17,9 +17,13 @@ public class TestController {
         List<Double> list = new ArrayList<>();
         list.add(1.1d);
         list.forEach(e ->{
-            d.add(new BigDecimal(e));
+
         });
         d = d.add(new BigDecimal(1.1d));
         System.out.println(d.doubleValue());
+    }
+
+    public void test() {
+        System.out.println(123321);
     }
 }
